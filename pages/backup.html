@@ -29,6 +29,7 @@
 
     <!-- Template Stylesheet -->
     <link href="../css/style.css" rel="stylesheet">
+    <link href="../menujr.css" rel="stylesheet">
 </head>
 
 <body>
@@ -46,36 +47,55 @@
         <div class="sidebar pe-4 pb-3">
             <nav class="navbar bg-light navbar-light">
                 <a href="index.html" class="navbar-brand mx-4 mb-3">
-                    <h3 class="text-primary">Hoggan Help</h3>
+                    <h3 class="text-primary">Help Content</h3>
                 </a>
                 <div class="navbar-nav w-100">
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="far fa-file-alt me-2"></i>Options menu</a>
-                        <div class="dropdown-menu2 bg-transparent border-0">
-                            <a href="../pages/mainscreen.html" class="dropdown-item"> Main Screen</a>
-                            <a href="../pages/patient.html" class="dropdown-item"> Patient</a>
-							<div class="nav-item dropdown2">
-								<a href="#" class="nav-link dropdown-toggle2" data-bs-toggle="dropdown"> Modules</a>
-								<div class="dropdown-menu bg-transparent border-0">
-									<a class="dropdown-item" href="../pages/inclinometry.html">Inclinometry</a>
-									<a class="dropdown-item" href="../pages/HandTests.html">Hand Tests</a>
-									<a class="dropdown-item" href="../pages/MuscleTests.html">Muscle Tests</a>
-								</div>
-							</div>
-							<div class="nav-item dropdown3">
-								<a href="#" class="nav-link dropdown-toggle3" data-bs-toggle="dropdown"> Reports</a>
-								<div class="dropdown-menu bg-transparent border-0">
-									<a class="dropdown-item" href="../pages/Letter.html">Letter/Narrative</a>
-									<a class="dropdown-item" href="../pages/Rom.html">Rom</a>
-									<a class="dropdown-item" href="../pages/Grip.html">Grip</a>
-									<a class="dropdown-item" href="../pages/Pinch.html">Pinch</a>
-									<a class="dropdown-item" href="../pages/MuscleTest.html">Muscle Test</a>
-									<a class="dropdown-item" href="../pages/Misc.html">Misc</a>
-								</div>
-							</div>
-							<a href="../pages/TroubleShooting.html" class="dropdown-item"> Trouble Shooting</a>
-                            <a href="../pages/ContactSupport.html" class="dropdown-item"> Contact Support</a>							
-                        </div>
+                    <div class="menujq">
+                        <ul>
+                            <li><a href="../pages/about.html">About</a></li>
+                            <li><a href="javascript:void();">How To</a>
+                                <ul>
+                                <li><a href="../pages/initialSetup.html">Initial Setup</a></li>
+                                <li><a href="../pages/createNewPatient.html">Create New Patient</a></li>
+                                <li><a href="../pages/openExistingPatient.html">Open Existing Patient</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="javascript:void();">Home Screen Menu</a>
+                                <ul>
+                                    <li><a href="javascript:void();">Patient</a>
+                                        <ul>
+                                            <li><a href="../pages/new.html">New</a></li>
+                                            <li><a href="../pages/backup.html">Backup</a></li>
+                                            <li><a href="../pages/restore.html">Restore</a></li>
+                                            <li><a href="../pages/unlock.html">Unlock</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="javascript:void();">Modules</a>
+                                        <ul>
+                                            <li><a href="../pages/pretestdata.html">Pre Test Data</a></li>
+                                            <li><a href="../pages/HandTests.html">Hand Test</a></li>
+                                            <li><a href="../pages/inclinometry.html">Inclinometry</a></li>
+                                            <li><a href="../pages/MuscleTest.html">Muscle Test</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="../pages/reports.html">Reports</a></li>
+                                    <li><a href="../pages/utilities.html">Utilities</a></li>
+                                    <li><a href="../pages/help.html">Help</a></li>
+                                </ul>
+                            </li>
+
+
+
+
+
+                            <li><a href="javascript:void();">Trouble Shooting / FAQ's</a>
+                                <ul>
+                                    <li><a href="URL del enlace">Trouble Shooting</a></li>
+                                    <li><a href="URL del enlace">Troguently Asker Questions</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
                     </div>
                 </div>
             </nav>
@@ -138,6 +158,7 @@
 
     <!-- Template Javascript -->
     <script src="../js/main.js"></script>
+    <script src="../menujr.js"></script>
 </body>
 
 </html>
